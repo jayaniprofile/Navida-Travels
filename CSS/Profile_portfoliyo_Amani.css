@@ -1,0 +1,460 @@
+body{
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1%;
+
+        grid-template-rows:  100px 30px 100px 60px 40px 190px 60px 100px 500px 100px 100px 500px 100px  100px  500px  100px  100px  100px;
+        background-color: #F5F5F5;
+      }
+     
+
+      .grid-container > div {
+        
+        ;border-width: 2px
+      }
+
+
+       .item0_1 {
+
+        grid-column: 1 / 25;
+        grid-row: 1;
+        background-color: #EBF6F9; 
+        padding-left: 10px;
+        padding-top: 5px;
+        
+      }
+      .item0_2 {
+
+        grid-column: 25 / 75;
+        grid-row: 1;
+        background-color: #EBF6F9; 
+      }
+      .item0_3 {
+
+        grid-column: 75 / 85;
+        grid-row: 1;
+        background-color: #EBF6F9; 
+      }
+      .item0_4 {
+
+        grid-column: 85 /span 100;
+        grid-row: 1;
+        background-color: #EBF6F9; 
+      }
+
+      .item1 {
+        grid-column: 1 / 101;
+        grid-row: 2 / 8;
+        background-color: #EBF6F9
+      }
+
+      .item2 {
+        grid-column: 1 / 30;
+        grid-row: 2 / 8;        
+      }
+
+      .item3 {
+        grid-column: 45 / 90;
+        grid-row: 3;        
+      }
+
+      .item4_1 {
+        grid-column: 47 / 53;
+        grid-row: 4;        
+      }
+
+      .item4_2 {
+        grid-column: 54 / 60;
+        grid-row: 4;        
+      }
+
+      .item4_3 {
+        grid-column: 61 / 67;
+        grid-row: 4;        
+      }
+
+      .item5 {
+        grid-column: 45 / 74;
+        grid-row: 5;        
+      }
+
+      .item6 {
+        grid-column: 45 / 90;
+        grid-row: 6;        
+      }
+
+      .item7_1 {
+        grid-column: 50 / 60;
+        grid-row: 7; 
+        background-color: #8CB1BB;
+        border-style: solid;
+        border-color: #EBF6F9;
+      }
+
+      .item7_2 {
+        grid-column: 58 / 68;
+        grid-row: 7; 
+        background-color: #8CB1BB;    
+        border-style: solid;
+        border-color: #EBF6F9;   
+      }
+
+      .item7_3 {
+        grid-column: 68 / 78;
+        grid-row: 7; 
+        background-color: #8CB1BB;   
+        border-style: solid;
+        border-color: #EBF6F9;    
+      }
+
+      .item7_4 {
+        grid-column: 78 / 88;
+        grid-row: 7; 
+        background-color: #8CB1BB;    
+        border-style: solid;
+        border-color: #EBF6F9;   
+      }
+
+      .item7_5 {
+        grid-column: 88 / 101;
+        grid-row: 7; 
+        background-color: #8CB1BB;    
+        border-style: solid;
+        border-color: #EBF6F9; 
+
+      }
+
+      .item8 {
+        grid-column: 1 / 101;
+        grid-row: 8;   
+      }
+      .item9 {
+        grid-column: 1 / 101;
+        grid-row: 8/11; 
+        background: gray  
+      }
+
+      .item10_1 {
+        grid-column:  5 / 25;
+        grid-row: 9;   
+        background: yellow ;   
+      }
+
+      .item10_2 {
+        grid-column:  30 / 50;
+        grid-row: 9;   
+        background: yellow ;   
+      }
+
+      .item10_3 {
+        grid-column:  55 / 75;
+        grid-row: 9;   
+        background: yellow ;   
+      }
+
+      .item10_4 {
+        grid-column:  80 / 100;
+        grid-row: 9;   
+        background: yellow ;   
+      }
+      
+
+
+
+
+
+
+
+
+
+      .item11 {
+        grid-column:  1 / 101;
+        grid-row: 14/15;   
+        background: red ;
+      }
+
+      .item12_1 {
+        grid-column:  5 / 25;
+        grid-row: 12;
+        background: black;
+      }
+      .item12_2 {
+        grid-column:  28 / 48;
+        grid-row: 12;
+        background: black;
+      }
+      .item12_3 {
+        grid-column:  51 / 71;
+        grid-row: 12;
+        background: black;
+      }
+
+      .item12_4 {
+        grid-column:  74 / 97;
+        grid-row: 12;
+        background: black;
+      }
+
+
+
+
+
+
+
+
+      .item13 {
+        grid-column:  1 / 101;
+        grid-row: 14/17;   
+        background-color: green ;
+      }
+
+      .item14_1 {
+        grid-column:  5 / 25;
+        grid-row: 15;
+        background: yellow ;
+      }
+
+      .item14_2 {
+        grid-column:  28 / 48;
+        grid-row: 15;
+        background: yellow ;
+      }
+      
+      .item14_3 {
+        grid-column:  51 / 71;
+        grid-row: 15;
+        background: yellow ;
+      }
+
+      .item14_4 {
+        grid-column:  74 / 97;
+        grid-row: 15;
+        background: yellow ;
+      }
+
+
+
+
+
+
+
+
+
+      .item15 {
+        grid-column:  1 / 101;
+        grid-row: 17 /20;   
+        background: red ;
+      }
+
+      .item16_1{
+        grid-column: 5 / 25;
+        grid-row: 18;
+        background: gray ;
+      }
+      .item16_2{
+        grid-column:  28 / 48;
+        grid-row: 18;
+        background: gray ;
+      }
+      .item16_3{
+        grid-column:  51 / 71;
+        grid-row: 18;
+        background: gray ;
+      }
+      .item16_4{
+        grid-column:  74 / 97;
+        grid-row: 18;
+        background: gray ;
+      }
+
+
+
+
+
+
+
+      .item17 {
+        grid-column:  1 / 101;
+        grid-row: 20/23;   
+        background: black ;
+      }
+
+      .item18_1 {
+        grid-column: 5 / 25;
+        grid-row: 21;
+        background: yellow ;
+      }
+
+      .item18_2 {
+        grid-column: 28 / 48;
+        grid-row: 21;
+        background: yellow ;
+      }
+
+      .item18_3 {
+        grid-column: 51 / 71;
+        grid-row: 21;
+        background: yellow ;
+      }
+
+      .item18_4 {
+        grid-column: 74 / 97;
+        grid-row: 21;
+        background: yellow ;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .item19 {
+        grid-column:  1 / 101;
+        grid-row: 24;
+        background: blue ;
+      }
+
+      .item20 {
+        grid-column:  1 / 101;
+        grid-row: 18;
+
+      }
+
+
+
+
+      nav{
+        top:0;
+        left:0;
+        padding:10px ;
+        box-sizing: border-box;
+
+      }
+
+      nav .logo{color: red ;
+          padding:0;
+          height:80px;
+          float:left;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+          }
+
+      nav ul{list-style: none;
+          float: left;
+          margin: 0;
+          padding: 0;
+          display: flex;}
+      nav ul li a{line-height: 80px;
+
+            color: black;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight:bold;}
+      nav ul li a:hover {background-color: orange;
+                border-radius:6px;}
+
+      nav ul li a.active{background:#e2462f;
+                color:#fff;
+                border-radius: 6px;}
+
+      
+
+      nav .sign_in{background:white;
+        font-weight: bold;
+            color:black;
+            border-radius: 6px;
+            }
+
+      nav .translate{background:#5866EB;
+            color:red;
+            border-radius: 6px;
+
+            }
+
+
+      .dropbtn {}
+
+      .dropdown {position: relative;
+             display: inline-block;}
+
+      .dropdown-content {display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                z-index: 1;border-radius: 5px}
+
+
+      .dropdown-content a {color: black;
+                  padding:0px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center}
+
+      .dropdown-content a:hover {background-color: orange;}
+
+      .dropdown:hover .dropdown-content {display: block;}
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+      footer.footer{
+          height:100%;
+          position:relative;}
+
+      footer.footer .container{
+          display:grid;
+          grid-template-columns:repeat(5,1fr);
+          hr style:width:50%;text-align:left;margin-left:0;
+          color:white;}
+
+      hr {width:80%;
+              text-align:left;
+              margin-left:0;} 
+           
+        ./* Style all font awesome icons */
+      .fa {padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;}
+
+        /* Add a hover effect if you want */
+      .fa:hover {opacity: 0.7;}
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+      .fa-facebook {color: white;}
+
+        /* Twitter */
+      .fa-twitter {color: white;}
+
+      fa-instagram {color: white;}
+
+
+      .Customer_reg{float:left;}
+
+      .Customer_reg_left{width:45%;}
+      .Customer_reg_center{width:45%;}
+      .Customer_reg_right{width:10%;}
+
+
+      .btn:hover {background: #eee;}
+      .success {color: green;
+        width: 100px;
+      }

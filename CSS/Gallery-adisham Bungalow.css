@@ -1,0 +1,318 @@
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1%;
+
+        grid-template-rows:  100px 200px 100px 100px 100px 100px 100px  100px  100px  100px  ;
+        background-color: #F5F5F5;
+      }
+     
+
+      .grid-container > div {
+        
+        ;border-width: 2px
+      }
+
+
+
+      .item1_1 {
+
+        grid-column: 1 / 25;
+        grid-row: 1;
+        padding-left: 10px;
+        padding-top: 5px;
+        background: black;
+        
+      }
+      .item1_2 {
+
+        grid-column: 25 / 75;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+        
+
+         
+      }
+      .item1_3 {
+
+        grid-column: 75 / 85;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+        
+      }
+      .item1_4 {
+
+        grid-column: 85 /span 100;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;         
+      }
+    
+      .item3 {
+
+        grid-column: 1 / 101;
+        grid-row: 2/5;
+
+      }
+
+      .item92 {
+
+        grid-column: 1 / 101;
+        grid-row: 10;
+        background-color: #EBF6F9; 
+        
+      }
+
+
+
+      .rec{
+        top:0;
+        left:0;
+        padding:10px ;
+        box-sizing: border-box;
+
+      }
+
+      .rec .logo{color: red ;
+          padding:0;
+          height:80px;
+          float:left;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+
+
+          }
+
+      .recul{list-style: none;
+          float: left;
+          margin: 0;
+          padding: 0;
+          display: flex;}
+      .recullia{line-height: 80px;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight:bold;}
+      .recullia:hover {background-color: orange;
+                border-radius:6px;}
+
+      .recullia.active{background:#e2462f;
+                color:#fff;
+                border-radius: 6px;}
+
+      
+
+      .recsign_in{background:white;
+        font-weight: bold;
+            color:black;
+            border-radius: 6px;
+            }
+
+      .rectranslate{background:#5866EB;
+            color:red;
+            border-radius: 6px;
+
+            }
+
+
+      .dropbtna {}
+
+      .dropdowna {position: relative;
+             display: inline-block;}
+
+      .dropdowna-contenta {display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 160px;
+                z-index: 1;border-radius: 5px}
+
+
+      .dropdowna-contenta a {color: white;
+                  padding:0px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center}
+
+      .dropdowna-contenta a:hover {background-color: orange;}
+
+      .dropdowna:hover .dropdowna-contenta {display: block;}
+
+      .dropdowna:hover .dropbtna {background-color: #3e8e41;}
+
+
+
+      footer.footer{
+          height:100%;
+          position:relative;}
+
+      footer.footer .container{
+          display:grid;
+          grid-template-columns:repeat(5,1fr);
+          hr style:width:50%;text-align:left;margin-left:0;
+          color:white;}
+
+      hr {width:80%;
+              text-align:left;
+              margin-left:0;} 
+           
+        ./* Style all font awesome icons */
+      .fa {padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;}
+
+        /* Add a hover effect if you want */
+      .fa:hover {opacity: 0.7;}
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+      .fa-facebook {color: white;}
+
+        /* Twitter */
+      .fa-twitter {color: white;}
+
+      fa-instagram {color: white;}
+
+
+      .Customer_reg{float:left;}
+
+      .Customer_reg_left{width:45%;}
+      .Customer_reg_center{width:45%;}
+      .Customer_reg_right{width:10%;}
+      
+      ______________________________________
+
+#myImg1 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height:200px;
+  
+}
+
+#myImg2 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height:200px;
+  
+}
+
+#myImg3 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height:200px;
+  
+}
+
+
+#myImg4 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height:200px;
+  
+}
+
+#myImg5 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  height:200px;
+  
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 00;
+  right: 100;
+  top: 50;
+  width: 60%; /* Full width */
+  height: 90%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 200px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>

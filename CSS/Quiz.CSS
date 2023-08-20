@@ -1,0 +1,353 @@
+ body{
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1%;
+
+        grid-template-rows: 100px 100px 70px 200px 160px 150px     ;
+        background-color: #F5F5F5;
+      }
+     
+
+      .grid-container > div {
+        border-color: red
+        ;border-width: 2px
+      }
+
+
+      
+
+      .item1 {
+        grid-column: 1 / 101;
+        grid-row: 1 / 4;
+        
+      }
+      .item2_1 {
+
+        grid-column: 1 / 25;
+        grid-row: 1;
+        padding-left: 10px;
+        padding-top: 5px;
+        background: black;
+        
+      }
+      .item2_2 {
+
+        grid-column: 25 / 75;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+      }
+      .item2_3 {
+
+        grid-column: 75 / 85;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+        
+      }
+      .item2_4 {
+
+        grid-column: 85 /span 100;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;         
+      }
+
+      .item3 {
+        grid-column: 1 /30;
+        grid-row: 2/6;
+
+
+      }
+
+      .item4 {
+        grid-column: 30 /70;
+        grid-row: 2/6;
+        background-color:blue;
+      }
+      .item5 {
+        grid-column: 70 / 101;
+        grid-row: 2/6;
+     
+      }
+
+      .item5_1 {
+        grid-column: 70 / 101;
+        grid-row: 2/6;
+     
+      }
+
+
+      
+
+
+      .item18 {
+        grid-column: 1 /101;
+        grid-row:6;
+        
+        
+      }
+
+      #POB{
+      	color: white;
+      	font-size: 22px;
+      	margin-top: 100px;
+      	margin-left: 50px; 
+      }
+
+      #countdown{
+      	margin-top: 30px;
+      	margin-left: 230px;
+      	font-size: 26px;
+      	font-weight: 14px
+
+      }
+
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="about-us.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+
+
+ 
+
+
+
+      nav{
+        top:0;
+        left:0;
+        padding:10px ;
+        box-sizing: border-box;
+
+      }
+
+      nav .logo{color: red ;
+          padding:0;
+          height:80px;
+          float:left;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+          }
+
+      nav ul{list-style: none;
+          float: left;
+          margin: 0;
+          padding: 0;
+          display: flex;}
+      nav ul li a{line-height: 80px;
+
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight:bold;}
+      nav ul li a:hover {background-color: orange;
+                border-radius:6px;}
+
+      nav ul li a.active{background:#e2462f;
+                color:#fff;
+                border-radius: 6px;}
+
+      
+
+      nav .sign_in{background:white;
+        font-weight: bold;
+            color:black;
+            border-radius: 6px;
+            }
+
+      nav .translate{background:#00008B;
+            color:red;
+            border-radius: 6px;
+
+            }
+
+
+      .dropbtn {}
+
+      .dropdown {position: relative;
+             display: inline-block;}
+
+      .dropdown-content {display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 160px;
+                z-index: 1;border-radius: 5px}
+
+
+      .dropdown-content a {color: white;
+                  padding:0px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center}
+
+      .dropdown-content a:hover {background-color: orange;}
+
+      .dropdown:hover .dropdown-content {display: block;}
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+      #btn0, #btn1, #btn2, #btn3 {
+	    background-color: #F9E79F;
+		border-radius:10px;
+	    width: 250px;
+	    font-size: 20px;
+	    color: #00000;
+	    border: 1px ;
+	    margin: 20px;
+	    padding: 10px;
+      height: 80px;
+		}
+	  
+	
+		
+
+
+      footer.footer{
+          height:100%;
+          position:relative;}
+
+      footer.footer .container{
+          display:grid;
+          grid-template-columns:repeat(5,1fr);
+          hr style:width:50%;text-align:left;margin-left:0;
+          color:white;}
+
+      hr {width:80%;
+              text-align:left;
+              margin-left:0;} 
+           
+        ./* Style all font awesome icons */
+      .fa {padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;}
+
+        /* Add a hover effect if you want */
+      .fa:hover {opacity: 0.7;}
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+      .fa-facebook {color: white;}
+
+        /* Twitter */
+      .fa-twitter {color: white;}
+
+      fa-instagram {color: white;}
+
+
+      .Customer_reg{float:left;}
+
+      .Customer_reg_left{width:45%;}
+      .Customer_reg_center{width:45%;}
+      .Customer_reg_right{width:10%;}
+
+      .Pobleam{
+      	font-size: 26px;
+      	color: white;
+      	padding: 20px;
+      	margin-left: 450px; 
+      }
+      
+      
+
+
+
+
+
+
+
+
+
+      body {
+    background-color: white;
+	margin:0;
+	padding:0;
+}
+ 
+.grid {
+	box-sizing:border-box;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+	border-radius:10px;
+
+    
+}
+    
+
+ 
+#score {
+    color: #green;
+    text-align: center;
+    font-size: 90px;
+
+	h1 {text-align: center;
+	color:red;
+	font-size:100px}
+	div {text-align: center;
+	color:green;
+	font-size:50px}
+	
+	body {background-color: yellow;}
+}
+ 
+.grid #question {
+	padding:12px;
+    font-family:sans-serif;
+    font-size: 28px;
+    background-color:yellow;
+	border-radius:12px;
+	
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+.answer-tracker div{
+	height:40px;
+	width:40px;
+	background-color:#cccccc;
+	display:inline-block;
+	border-radius:50%;
+	margin:0 px;
+}
+ 
+#progress {
+    color: #2b2b2b;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top:100px;
+    font-weight: bold;
+
+}

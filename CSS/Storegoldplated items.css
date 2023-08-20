@@ -1,0 +1,275 @@
+ body{
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1%;
+
+        grid-template-rows:  100px 200px 100px 100px 100px 100px 100px 100px 200px 100px  100px;
+        background-color: #F5F5F5;
+      }
+     
+
+      .grid-container > div {
+        
+        ;border-width: 2px
+      }
+
+
+       
+
+      .item1_1 {
+
+        grid-column: 1 / 25;
+        grid-row: 1;
+        padding-left: 10px;
+        padding-top: 5px;
+        background: black;
+        
+      }
+      .item1_2 {
+
+        grid-column: 25 / 75;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+        
+
+         
+      }
+      .item1_3 {
+
+        grid-column: 75 / 85;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;
+        
+      }
+      .item1_4 {
+
+        grid-column: 85 /span 100;
+        grid-row: 1;
+        background: black;
+        padding-top: 15px;         
+      }
+       
+      .item2{
+
+        grid-column: 10/98;
+        grid-row: 4/9;
+       
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+       .item3{
+        grid-column:35/70;
+        grid-row: 2;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 50px;
+      }
+
+ 
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      .item92 {
+
+        grid-column: 1 / 101;
+        grid-row: 10;
+        background-color: #EBF6F9; 
+        
+      }
+
+
+
+      .rec{
+        top:0;
+        left:0;
+        padding:10px ;
+        box-sizing: border-box;
+
+      }
+
+      .rec .logo{color: red ;
+          padding:0;
+          height:80px;
+          float:left;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+
+
+          }
+
+      .recul{list-style: none;
+          float: left;
+          margin: 0;
+          padding: 0;
+          display: flex;}
+      .recullia{line-height: 80px;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight:bold;}
+      .recullia:hover {background-color: orange;
+                border-radius:6px;}
+
+      .recullia.active{background:#e2462f;
+                color:#fff;
+                border-radius: 6px;}
+
+      
+
+      .recsign_in{background:white;
+        font-weight: bold;
+            color:black;
+            border-radius: 6px;
+            }
+
+      .rectranslate{background:#5866EB;
+            color:red;
+            border-radius: 6px;
+
+            }
+
+
+      .dropbtna {}
+
+      .dropdowna {position: relative;
+             display: inline-block;}
+
+      .dropdowna-contenta {display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 160px;
+                z-index: 1;border-radius: 5px}
+
+
+      .dropdowna-contenta a {color: white;
+                  padding:0px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center}
+
+      .dropdowna-contenta a:hover {background-color: orange;}
+
+      .dropdowna:hover .dropdowna-contenta {display: block;}
+
+      .dropdowna:hover .dropbtna {background-color: #3e8e41;}
+
+
+
+      footer.footer{
+          height:100%;
+          position:relative;}
+
+      footer.footer .container{
+          display:grid;
+          grid-template-columns:repeat(5,1fr);
+          hr style:width:50%;text-align:left;margin-left:0;
+          color:white;}
+
+      hr {width:80%;
+              text-align:left;
+              margin-left:0;} 
+           
+        ./* Style all font awesome icons */
+      .fa {padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;}
+
+        /* Add a hover effect if you want */
+      .fa:hover {opacity: 0.7;}
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+      .fa-facebook {color: white;}
+
+        /* Twitter */
+      .fa-twitter {color: white;}
+
+      fa-instagram {color: white;}
+
+
+      .Customer_reg{float:left;}
+
+      .Customer_reg_left{width:45%;}
+      .Customer_reg_center{width:45%;}
+      .Customer_reg_right{width:10%;}
+      _____________________________________________
+h2{
+ text-align:center;
+ font-size:80px;
+ }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color:  #EEA47FFF;
+  border-style: ridge;
+   border-width: 5px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.column {
+  float: left;
+  width: 22%;
+  padding: 0 10px;
+}
