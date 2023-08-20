@@ -1,0 +1,446 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="CSS/Home.css">
+    <title>Home</title>
+
+
+    <script>
+      function target_popup(e) {
+        e.preventDefault();
+        var out1 = document.getElementById('types').value;
+        var out2 = document.getElementById('types1').value;
+        var out3 = document.getElementById('types2').value;
+        const wdw = window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+        wdw.document.body.textContent = ' Name : ' + out1 + ' \n , Comments : ' + out2 + ' \n , Experince : '+ out3 ;
+
+        wdw.document.body.style='background:green;font-size:20px ;'
+        document.getElementById("myForm").reset();
+      }
+    </script>
+    
+  </head>
+<body>
+
+
+  <div class="grid-container">
+
+      <div class="grid-item item1_1">
+        <img href="Home.html"  img src="image/traveling_logo.png" alt="traveling logo " style="width: auto;height: 80px;">
+      </div>
+          
+      <div class="grid-item item1_2">
+        <link rel="stylesheet" href="styles.css">
+        <nav class=".rec" >
+          <ul class="recul" >
+              <li >
+                <a class="active recullia"; href="Home.html">Home</a>
+              </li>
+
+              <li class="dropdowna ">
+                <a class="recullia" href="#">Discover</a>
+
+                <div class="dropdowna-contenta" >
+                  <a href="News_home.html" style="height: 50px">News</a>
+                  <a href="blog_Bloghome.html" style="height: 50px">Blog</a>
+                  <a href="Srilankan_map.html" style="height: 50px">Map</a>
+                  <a href="Sitemap_sitemap.html" style="height: 50px">Site Map</a>
+                </div>
+                
+              </li>
+
+              <li class="dropdowna ">
+                <a class="recullia" href="Gallery-home.html">Gallery</a>
+
+                <div class="dropdowna-contenta" >
+                  <a href="Gallery-kandy.html" style="height: 50px">Kandy</a>
+                  <a href="Gallery-nuwaraeliya.html" style="height: 50px">Nuwara eliya</a>
+                  <a href="Gallery-ella.html" style="height: 50px">Ella</a>
+                </div>
+                
+              </li>
+
+              <li><a class="recullia" href="store_Storehome.html">Store</a></li>
+              <li><a class="recullia" href="Quiz_Home.html">Quiz</a></li>
+              <li><a class="recullia" href="About_html.html">About us</a></li>
+                  
+          </ul>
+        </nav>
+      </div>
+
+      <div class="grid-item item1_3">
+        <nav >
+          <ul class="recul" >
+            <li >
+              <a class="recsign_in recullia" ; href="#">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="grid-item item1_4">
+        <nav >
+          <ul class="recul">
+            <li   class="dropdowna">
+              <a class="rectranslate recullia" href="it.lk"> 
+                <img href="default.asp" img src="image/Translate.png" alt="traveling logo " width="30px" height="auto" position= fixed> 
+              </a>
+
+              <div class="dropdowna-contenta" >
+                <a class="recullia" href="#" style="height: 50px">English</a>
+                <a class="recullia" href="#" style="height: 50px">Sinhala</a>
+                <a class="recullia" href="#" style="height: 50px">French</a>
+                <a class="recullia" href="#" style="height: 50px">German </a>
+                <a class="recullia" href="#" style="height: 50px">Tamil</a>
+              </div>
+          
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <div class="grid-item item2"><img src="image/A3.png" style="width: 100%; height: auto"></div>
+
+      <div class="grid-item item3">3</div>  
+      <div class="grid-item item4">4</div>
+      <div class="grid-item item5">5</div>
+      <div class="grid-item item6">6</div>
+
+      <div class="grid-item item7_1">
+        <form id="mini_f1" >
+          <table>
+            <tr>
+              <td>Directions
+                <select id="cars" name="cars">
+                    <option value="kandy">kandy</option>
+                    <option value="Nuwara eliya">Nuwara eliya</option>
+                    <option value="ella">ella</option>
+                      </select>
+              </td>
+
+              <td>Check-in-date <input type="date" name="in"></td>
+
+              <td>Check-out-date <input type="date" name="out"></td>
+
+              <td>Price Limit 
+                <select id="cars" name="cars">
+                  <option value="10_20">Rs.10,000-Rs.20,000</option>
+                  <option value="20_30">Rs.20,000-Rs.30,000</option>
+                  <option value="30_40">Rs.30,000-Rs.40,000</option>
+                  <option value="40_50">Rs.40,000-Rs.50,000</option>
+                  <option value="50_60">Rs.50,000-Rs.60,000</option>
+                </select>
+              </td>
+
+              <td>peoples 
+                <select id="cars" name="cars">
+                  <option value="1-3">1-2</option>
+                  <option value="1-3">1-3</option>
+                  <option value="1-3">1-5</option>
+                  <option value="3-5">1-10</option>
+                  <option value="5-@">1-@</option>
+                </select>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td style="position: absolute; left: 45% "> <button style=";width: 90px;height: 30;margin-top: 20px;border-radius:6px" type="submit" form="mini_f1" value="Submit">Submit</button></td>
+            </tr>
+          </table>
+        </form>
+
+      </div>
+
+      <div class="grid-item item8"></div>
+      
+      <div class="grid-item item9">
+        <img src="image/dreamyourtrip.png" style="width: 100%; height: auto">
+      </div>
+      
+      <div class="grid-item item10">
+        <h1 style="color: gray ; font-size: 40px">Trending Destinations</h1>
+      </div>
+      
+      <div class="grid-item item11">
+        <a href="Gallery-kandy.html"> <img src="image/SDA5.jpg" alt="Girl in a jacket" style="height: auto;width: 290px"></a>
+      </div>
+
+      <div class="grid-item item12">
+         <a href="Gallery-ella.html"> <img src="image/SDA4.jpg" alt="Girl in a jacket" style="height: auto;width: 290px;"></a>
+      </div>
+
+      <div class="grid-item item13">
+         <a href="Gallery-nuwaraeliya.html"><img src="image/SDA1.jpg" alt="Girl in a jacket" style="height: auto;width: 290px;"></a>
+      </div>
+
+      <div class="grid-item item15">
+         <a href="Gallery-ella.html"><img src="image/SDA2.jpg" alt="Girl in a jacket" style="height: auto;width: 290px;"></a>
+      </div>
+      
+      <div class="grid-item item16" style="background-image: url(image/VFD3.jpg);">
+        <h1 style="padding-left:550px">Popular Destination for Honeymoon</h1>
+        <p style="padding-left:550px ; width: 770px; height: auto; padding-top: 30px;text-align: justify">Now for some serene intimate getaway. Ella, a lovely Sri Lankan mountain village, is a place where the freshly hitched can just be, which makes it one of the best places to visit in Sri Lanka for honeymoon. Be sure to travel by train to this pretty place. Around you, there are acres of tea plantations, cloud covers, jungle canopies, and plenty of things to do in Ella that will keep you hooked to this place. Nestle yourselves cozily into this pristine setting. Ella has to be one of the most romantic Sri Lanka honeymoon destinations. 
+        </p>
+      </div>
+
+      <div class="grid-item item17 " >
+         <a href="Gallery-nuwaraeliya.html"><img src="image/CSD2.jpg" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+
+      <div class="grid-item item18">
+         <a href="Gallery-nuwaraeliya.html"><img src="image/CSD3.jpg" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+
+      <div class="grid-item item19">
+         <a href="Gallery-ella.html"><img src="image/CSD4.jpg" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+
+
+      <div class="grid-item item20 "></div>
+
+      <div class="grid-item item21">
+        <a href="paceges.html"><img src="image/DFG2.png" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+
+      <div class="grid-item item22">
+         <a href="paceges.html"><img src="image/DFG3.png" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+
+      <div class="grid-item item23">
+        <a href="paceges.html"><img src="image/DFG1.png" alt="Girl in a jacket" style="height: 500px ;width: 300px;border-radius: 10px;"></a>
+      </div>
+      
+      <div class="grid-item item24">
+        <h1 style=" margin-top: 120px;  margin-bottom:  70px; text-align: center;">Did you know s?</h1>
+      </div>
+
+      <div class="grid-item item25">
+        <p style="  margin-bottom:  120px; text-align: center;margin-left: 30%;margin-right: 30%;">Kandy, Nuwara Eliya, and Ella are 3 most eye-catching paradises in Sri Lanka. Once you visit this place you can enjoy hiking climbing or a plain, boat rides at lakes, taste a delicious cup of tea while watching Ceylon tea factories, visit many historical as well as religious places and you can have a fabulous bath in a waterfall. Did you know that you can have all these by visiting in place of the above?</p>
+      </div>
+
+      <div class="grid-item item26"> </div>
+      <div class="grid-item item27"> </div>
+
+
+      <div class="grid-item item28"></div>
+
+      <div class="grid-item item29"><a href="Gallery-ella.html">
+        <img src="image/RTY1.png" alt="Girl in a jacket" style="height: 250px;width: 250px;margin-top: 10px;border-radius: 10px ;"></a>
+      </div>
+
+      <div class="grid-item item30"><a href="Gallery-nuwaraeliya.html">
+        <img src="image/RTY2.png" alt="Girl in a jacket" style="height: 250px;width: 250px;margin-top: 10px;border-radius: 10px ;"></a>
+      </div>
+
+      <div class="grid-item item31"><a href="Gallery-kandy.html">
+        <img src="image/RTY3.png" alt="Girl in a jacket" style="height: 250px;width: 250px;margin-top: 10px;border-radius: 10px ;"></a>
+      </div>
+
+      <div class="grid-item item32"><a href="Gallery-ella.html">
+        <img src="image/RTY4.png" alt="Girl in a jacket" style="height: 250px;width: 250px;margin-top: 10px;border-radius: 10px ;"></a>
+      </div>
+
+      <div class="grid-item item33"></div>
+
+      <div class="grid-item item34" style="background-image: url(image/bkgs.jpg);" ></div>
+
+      <div class="grid-item item35">
+        <p style="text-align: center;font-size: 50px;color: white">Traveler Guides</p>
+      </div>
+
+      <div class="grid-item item36"></div>
+
+      <div class="grid-item item37">
+        <img src="image/DFfG1.png" alt="Girl in a jacket" style="height: auto ;width: 100% ;margin-top: 10px;border-radius: 10px ;">
+      </div>
+
+      <div class="grid-item item38">
+        <img src="image/DFfG2.png" alt="Girl in a jacket" style="height: auto ;width: 100% ;margin-top: 10px;border-radius: 10px ;">
+      </div>
+
+      <div class="grid-item item39">
+        <img src="image/DFfG3.png" alt="Girl in a jacket" style="height: auto ;width: 100% ;margin-top: 10px;border-radius: 10px ;">
+      </div>
+
+      <div class="grid-item item40">
+        <img src="image/DFfG4.png" alt="Girl in a jacket" style="height: auto ;width: 100% ;margin-top: 10px;border-radius: 10px ;">
+      </div>
+
+      <div class="grid-item item41"></div>
+      <div class="grid-item item42"><p style="font-size: 45px; padding-left: 30px"><b><u>News</u></b></p></div>
+      <div class="grid-item item43"></div>
+
+      <div class="grid-item item44">
+        <a href="News_home.html">
+          <img src="image/FJRM4.png" alt="Girl in a jacket" style="height: 150px;width: 150px;margin-top: 10px;border-radius: 10px;padding-left: 15px">
+        </a>
+      </div>
+
+      <div class="grid-item item45"></div>
+
+      <div class="grid-item item46">
+        <a href="News_home.html">
+          <img src="image/FJRM2.png" alt="Girl in a jacket" style="height: 150px;width: 150px;margin-top: 50px;border-radius: 10px;padding-left: 15px;">
+        </a>
+      </div>
+
+      <div class="grid-item item47"></div>
+
+      <div class="grid-item item48">
+        <a href="News_home.html">
+          <img src="image/FJRM1.png" alt="Girl in a jacket" style="height: 150px;width: 150px;margin-top: 50px;border-radius: 10px;padding-left: 15px;">
+        </a>
+      </div>
+      
+      <div class="grid-item item46_1">
+          <P style="padding-top: 80px  ; width: 1100px;" ><b style="font-size: 25px"><u>Fabulous hotel at Kandy has been opened</b></u></P>
+          <P style="width: 500px;text-align: justify;" >Another fabulous hotel at Kandy has been opened. It is a wonderland with all the facilities, comfort, and an eye-catching surrounding near the Kandy lake by the name “Haweslake Hotel”. Visit Haweslake to have a special day.</P>
+      </div>
+
+      <div class="grid-item item47_1">
+          <P style="padding-top: 40px  ; width: 600px;" ><b style="font-size: 25px"><u>A special occasion is opening in the Kandy lake</b></u></P>
+          <P style="width: 500px;text-align: justify;" >A special occasion is opening in the Kandy lake, it nothing else but seaplanes to have a ride around Kandy. When you are having a ride, you can see most of the eye-catching green pastures, forests, waterfalls, and one of the most sacred place the Temple of Tooth Relic in Kandy from the sky. </P>
+      </div>
+
+      <div class="grid-item item48_1">
+          <P style="padding-top: 40px  ; width: 1100px;" ><b style="font-size: 25px"><u>THE KANDY PERAHERA</b></u></P>
+          <P style="width: 500px;text-align: justify;" >The most colorful, sacred, and the religious procession celebrated by the Sri Lankans. “The Kandy procession” started in June and ends in July. In this, an elephant named ‘Raja’ carries the sacred tooth relic of the Lord Buddha on his back. Drummers, dancers, etc. join the procession to make it more beautiful and meaningful.</P>
+      </div>
+
+      <div class="grid-item item49"></div>
+      <div class="grid-item item50">
+        <span>
+          <img src="image/FJRM3.png" alt="Girl in a jacket" style="height: 150px;width: 150px;margin-top: 50px;border-radius: 10px;padding-left: 15px;">
+        </span>
+      </div>
+
+      <div class="grid-item item49_1">
+          <P style="padding-top: 40px  ; width: 1100px;" ><b style="font-size: 25px"><u>special train is running from Colombo to Kandy</b></u></P>
+          <P style="width: 500px;text-align: justify;" >During the Kandy Procession, a special train is running from Colombo to Kandy. It begins the journey from Colombo at 9.30 AM and arrives at Kandy at 1.00 PM and then it approaches from Kandy the next morning at 9.00 AM. This will make the journey more easy and comfortable. </P>
+      </div>
+
+      <div class="grid-item item52"></div>
+      <div class="grid-item item52"></div>
+      <div class="grid-item item53"></div>
+      <div class="grid-item item93"></div>
+      <div class="grid-item item94">
+
+
+        <form id="myForm" action="test.html" method="post" onsubmit="target_popup(event)">
+          <h1>Review Form</h1>
+
+          <fieldset>
+              <legend style="font-size: 20px"><span class="ddddddd">1</span> <b>Your Basic Info</b></legend>
+
+              <div style="padding-left: 40px">
+                <label  for="name"><h2>Name:</h2></label>
+                <input id="types" type="text" name="name" value="" style="width:410px;height: 30px;border-radius: 5px;">
+
+                <label class="" for="email"><h2>Email:</h2></label>
+                <input style="width:410px;height: 30px;border-radius: 5px;" type="email" name="email" value="">
+
+                <label><h2>Age:</h2></label>
+
+                <input type="radio" name="age" value="under_18">
+                <label style="width:410px;height: 30px;border-radius: 5px; " class="light" for="under_18">Under 18</label><br>
+
+                <input type="radio" name="age" value="over_18">
+                <label class="light" for="over_18" style="width:410px;height: 30px;border-radius: 5px; ">Over 18</label>
+            </div>
+
+          </fieldset>
+
+          <fieldset>
+
+            <legend style="font-size: 20px"><span class="ddddddd">2</span><b>Enter your review</b></legend>
+            <div style="padding-left: 40px">
+
+              <label class="" for="comments"><h2>Comments:</h2></label>
+              <textarea id="types1" type="text" name="comments" style="width:410px;height: 70px;border-radius: 5px; "></textarea>
+
+              <label for="service"><h2>How's our service?</h2></label>
+              <select id="types2" name="grades" type="text">
+
+                <option type="text" value="excellent">Excellent</option>
+                <option type="text" value="better">Better</option>
+                <option type="text" value="good">Good</option>
+                <option type="text" value="bad">Bad</option>
+                <option type="text" value="worst">Worst</option>
+
+              </select>
+
+              <label><h2>Interests:</h2></label>
+
+              <input type="checkbox" value="interest_arts" name="user_interest">
+              <label class="light" for="sketch">Kandy</label><br>
+
+              <input type="checkbox" value="interest_arts" name="user_interest">
+              <label class="light" for="oil">Nuwara eliya</label><br>
+
+              <input type="checkbox" value="interest_arts" name="user_interest">
+              <label class="light" for="charcoal">alla</label>
+            </div>
+
+          </fieldset>
+
+          
+          <button  class="fdfhjd" type="submit" value="Submit the review">"Submit the review</button>
+        </form>
+      </div>
+ 
+      <div class="grid-item item54"></div>
+      <div class="grid-item item55"></div>
+      <div class="grid-item item56_1">
+        <img src="image/ss.png" alt="Girl in a jacket" style="height: 250px ;width: auto;border-radius: 10px">
+      </div>
+
+      <div class="grid-item item56_5"></div>
+      <div class="grid-item item92">
+        <footer class="footer"  >
+          <div class="container" style="background-color: #333333  ; padding-left: 50px; padding-top:  30px; padding-bottom:  30px;">
+            <div class="home" >
+              <h6>
+                <a style="color: white; text-decoration: none; " href="Home.html">HOME</a> <hr>
+                <a style="color: white; text-decoration: none; " href="paceges_Home.html">PACKAGES</a> <hr>                    
+                <a style="color: white;text-decoration: none;" href="Gallery_home.html">GALLERY </a><hr>                    
+                <a style="color: white;text-decoration: none;" href="Sitemap_sitemap.html">SITEMAP </a><hr>               
+              </h6> 
+            </div>
+
+            <div class="destination"> 
+              <h6>
+                <a style="color: white;text-decoration: none;" href="News_home.html">NEWS </a><hr>
+                <a style="color: white;text-decoration: none;" href="store_Storehome.html">STORE </a><hr>
+                <a style="color: white;text-decoration: none;" href="blog_Bloghome.html">BLOG </a><hr>
+                <a style="color: white;text-decoration: none;" href="About_html.html">HELP </a> <hr>
+              </h6>
+            </div> 
+
+            <div class="faqs"> 
+              <h6>
+                <a style="color: white;text-decoration: none;" href="Srilankan_map.html">SRI LANKA </a><hr> 
+                <a style="color: white;text-decoration: none;" href="About_html.html">PRIVACY POLICY</a><hr> 
+                <a style="color: white;text-decoration: none;" href="About_html.html">CONTACT US</a><hr>
+                <a style="color: white;text-decoration: none;" href="blog_Bloghome.html">ABOUT US </a><hr>
+              </h6>
+            </div>
+
+            <div class="follow_us"> 
+              <h4>Follow Us</h4>
+              <p><h6>Lets us be Social</h6></p>
+              <div class="social-menu">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            
+                <a style="color: white;text-decoration: none; " href="#" class="fa fa-facebook"></a>
+                <a style="color: white;text-decoration: none; padding-left: 20px;" href="#" class="fa fa-twitter"></a>
+                <a style="color: white;text-decoration: none;padding-left: 20px;" href="#" class="fa fa-instagram"></a>
+                <a style="color: white;text-decoration: none;padding-left: 20px;" href="#" class="fa fa-youtube"></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
