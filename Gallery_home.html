@@ -1,0 +1,545 @@
+<html>
+  <head>
+    <title>Lak Medura -Online Shopping Store </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Add icon library -->
+<link rel="stylesheet" href="https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1% 1%;
+
+        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 200px 100px 100px ;
+        background-color: #F5F5F5;
+      }
+     
+
+      .grid-container > div {
+        
+        ;border-width: 2px
+      }
+
+
+      .item1_1 {
+
+        grid-column: 1 / 30;
+        grid-row: 1;
+        padding-left: 10px;
+        padding-top: 5px;
+        background: black;
+        
+      }
+      .item1_2 {
+
+        grid-column: 30 / 75;
+        grid-row: 1;
+        background: black;
+        
+
+         
+      }
+      .item1_3 {
+
+        grid-column: 75 / 85;
+        grid-row: 1;
+        background: black;
+        
+      }
+      .item1_4 {
+
+        grid-column: 85 /span 100;
+        grid-row: 1;
+        background: black;
+         
+      }
+      
+
+      .item2 {
+      	grid-column: 1 /span 100;
+        grid-row: 3;
+
+        
+      }
+
+      .item3 {
+
+      	grid-column: 1 /span 100;
+        grid-row: 2;
+
+
+        
+      }
+
+      .item4 {
+      	grid-column: 1 /span 100;
+        grid-row: 4/6;
+
+      }
+      .item6 {grid-column: 1 /span 100;
+        grid-row: 4/5;
+        padding-top: 50px;
+
+      }
+      .item5{
+        grid-column: 4 / 33;
+        grid-row: 7/10;
+      
+   
+         
+      }
+      .item9{
+        grid-column: 37 / 66;
+        grid-row: 7/10;
+      
+         
+      }
+      .item8{
+        grid-column: 70 / 99;
+        grid-row: 7/10;
+    
+         
+      }
+      
+      .item7{
+         grid-column: 9 / 28;
+         grid-row: 10/11;
+         
+         
+      }
+      .item10{
+         grid-column: 42 / 61;
+         grid-row: 10/11;
+        
+         
+      }
+      .item11{
+         grid-column: 75 / 94;
+         grid-row: 10/11;
+         
+         
+      }
+       
+
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      .item92 {
+
+        grid-column: 1 / 101;
+        grid-row: 12;
+        background-color: #EBF6F9; 
+        
+      }
+
+
+
+      .rec{
+        top: 0;
+        left: 0;
+        padding: 10px ;
+        box-sizing: border-box;
+
+      }
+
+      .rec .logo{color: red ;
+          padding: 0;
+          height: 80px;
+          float: left;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+
+
+          }
+
+      .recul{list-style: none;
+          float: left;
+          margin: 0;
+          padding: 0;
+          display: flex;}
+      .recullia{line-height: 80px;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;}
+      .recullia: hover {background-color: orange;
+                border-radius: 6px;}
+
+      .recullia.active{background: #e2462f;
+                color: #fff;
+                border-radius: 6px;}
+
+      
+
+      .recsign_in{background: white;
+        font-weight: bold;
+            color: black;
+            border-radius: 6px;
+            }
+
+      .rectranslate{background: #5866EB;
+            color: red;
+            border-radius: 6px;
+
+            }
+
+
+      .dropbtna {}
+
+      .dropdowna {position: relative;
+             display: inline-block;}
+
+      .dropdowna-contenta {display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 160px;
+                z-index: 1;border-radius: 5px}
+
+
+      .dropdowna-contenta a {color: white;
+                  padding: 0px;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center}
+
+      .dropdowna-contenta a:hover {background-color: orange;}
+
+      .dropdowna:hover .dropdowna-contenta {display: block;}
+
+      .dropdowna:hover .dropbtna {background-color: #3e8e41;}
+
+
+
+      footer.footer{
+          height: 100%;
+          position: relative;}
+
+      footer.footer .container{
+          display: grid;
+          grid-template-columns: repeat(5,1fr);
+          hr style: width:50%;text-align:left;margin-left:0;
+          color: white;}
+
+      hr {width: 80%;
+              text-align: left;
+              margin-left: 0;} 
+           
+        ./* Style all font awesome icons */
+      .fa {padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;}
+
+        /* Add a hover effect if you want */
+      .fa: hover {opacity: 0.7;}
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+      .fa-facebook {color: white;}
+
+        /* Twitter */
+      .fa-twitter {color: white;}
+
+      fa-instagram {color: white;}
+
+
+      .Customer_reg{float: left;}
+
+      .Customer_reg_left{width: 45%;}
+      .Customer_reg_center{width: 45%;}
+      .Customer_reg_right{width: 10%;}
+      _____________________________________________
+      
+       #main_topic
+       {
+text-align: center;
+font-size: 70px;
+font-family: monospace;
+padding-bottom: 10px}
+
+.img666{width: 400px;
+height: 400px;
+padding-right: 50px;
+
+}
+
+
+.detail
+{
+   color: black;
+   position: absolute;
+   top: 30%;
+   width: 50%;
+   text-align: left;
+   font-size: 0.95rem;
+} 
+
+.button {
+  border: none;
+  background-image:url(IMAGES/10.jpg);
+  padding: 40px 65px;
+  text-align: center;
+  font-size:25px;
+  font-color:white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+    </style>
+    
+  </head>
+
+  <body>
+
+    <div class="grid-container">
+
+
+      <div class="grid-item item1_1">
+        <img href="default.asp" img src="Image/traveling_logo.png" alt="traveling logo " style="width: auto;height: 80px;">
+      </div>
+      
+      <div class="grid-item item1_2">
+        <link rel="stylesheet" href="styles.css">
+        <nav class=".rec" >
+            <ul class="recul" >
+              <li >
+                <a class="active recullia"; href="#">Home</a>
+              </li>
+
+              <li class="dropdowna ">
+                <a class="recullia" href="Gallery-home.html">Gallery</a>
+
+                <div class="dropdowna-contenta" >
+                  <a href="Gallery-kandy.html" style="height: 50px">Kandy</a>
+                  <a href="Gallery-nuwaraeliya.html" style="height: 50px">Nuwara eliya</a>
+                  <a href="Gallery-ella.html" style="height: 50px">Ella</a>
+                </div>
+            
+              </li>
+              <li><a class="recullia" href="#">Discover</a></li>
+              <li><a class="recullia" href="#">About us</a></li>
+              <li><a class="recullia" href="#">Support</a></li>
+            </ul>
+        </nav>
+      </div>
+
+      <div class="grid-item item1_3">
+        <nav >
+          <ul class="recul" >
+            <li >
+              <a class="recsign_in recullia" ; href="#">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="grid-item item1_4">
+        <nav >
+          <ul class="recul">
+            <li   class="dropdowna">
+              <a class="rectranslate recullia" href="it.lk"> 
+                <img href="default.asp" img src="Image/Translate.png" alt="traveling logo " width="30px" height="auto" position= fixed> 
+              </a>
+
+               <div class="dropdowna-contenta" >
+                <a class="recullia" href="#" style="height: 50px">English</a>
+                <a class="recullia" href="#" style="height: 50px">Sinhala</a>
+                <a class="recullia" href="#" style="height: 50px">Frensh</a>
+                <a class="recullia" href="#" style="height: 50px">Jarman</a>
+                <a class="recullia" href="#" style="height: 50px">Tamil</a>
+              </div>
+      
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+
+          <div class="grid-item item3">
+          	<center><h1 id="main_topic" >Travel Gallery </h1></center>
+
+          </div>
+          <div class="grid-item item2">
+          	<img src="Image/3.jpeg" width=100% height=350%>
+          </div>
+          <div class="grid-item item4">
+          	<h2 style="   color: red;margin-top:5%;margin-right:5%;text-align:right; right:10%; font-size:5rem;">Ceylon</h2>
+		   
+          </div>
+          <div class="grid-item item6">
+          	<h5 style="color: black; text-align:left;width: 900px;padding-left:60px;   font-size:14px;"> Sri Lanka, formerly Ceylon, island country lying in the Indian Ocean and separated from peninsular India by the Palk Strait. It is located between latitudes 5°55′ and 9°51′ N and longitudes 79°41′ and 81°53′ E and has a maximum length of 268 miles (432 km) and a maximum width of 139 miles (224 km).
+
+
+    Proximity to the Indian subcontinent has facilitated close cultural interaction between Sri Lanka and India from ancient times. At a crossroads of maritime routes traversing the Indian Ocean, Sri Lanka has also been exposed to cultural influences from other Asian civilizations. Ancient Greek geographers called it Taprobane. Arabs referred to it as Serendib. Later European mapmakers called it Ceylon, a name still used occasionally for trade purposes. It officially became Sri Lanka in 1972.
+
+    </h5>
+          </div>
+          
+          <div class="grid-item item5">
+             <img src="Image/1.jpg" class="img666" >
+             
+             </div>
+          <div class="grid-item item9">
+             <img src="Image/2.jpeg" class="img666">
+             
+             </div>
+          <div class="grid-item item8">
+             <img src="Image/3.jpg" class="img666">
+             
+             </div>
+             
+             <div class="grid-item item7"><button class="button"><b><a href="Gallery-kandy.html">KANDY</b></a></button>
+                
+                  </div>
+          <div class="grid-item item10"><button class="button"><b><a href="Gallery-ella.html">ELLA</b></a></button>
+             
+               </div>
+          <div class="grid-item item11"><button class="button"><b><a href="Gallery-nuwaraeliya.html">NUWARAELIYA</b></a></button>
+             
+               </div>
+          
+
+
+     
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="grid-item item92">
+        
+        <footer class="footer"  >
+        <div class="container" style="background-color: #333333  ; padding-left: 50px; padding-top:  30px; padding-bottom:  30px;">
+          
+          <div class="home" >
+            <h6>
+                    <a style="color: white; text-decoration: none; " href="#">HOME</a> <hr>
+                    <a style="color: white; text-decoration: none; " href="#">TRIPS</a> <hr>                    
+                    <a style="color: white;text-decoration: none;" href="#">PLANNING </a><hr>                    
+                    <a style="color: white;text-decoration: none;" href="#">BLOG </a><hr>                     
+                    <a style="color: white;text-decoration: none;" href="#">DESTINATION</a> <hr>
+                </h6> 
+             </div>
+
+             <div class="destination"> 
+                <h6>
+                   <a style="color: white;text-decoration: none;" href="#">DESTINATIONS </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#">CONTACT </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#">DESTINATION </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#">ABOUT US </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#">HELP </a> <hr>
+                </h6>
+             </div> 
+
+             <div class="faqs"> 
+                <h6>
+                   <a style="color: white;text-decoration: none;" href="#">FAQs </a><hr> 
+                   <a style="color: white;text-decoration: none;" href="#">PRIVACY POLICY </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#"> COOKIE POLICY </a><hr> 
+                   <a style="color: white;text-decoration: none;" href="#">TERMS OF USE </a><hr>
+                   <a style="color: white;text-decoration: none;" href="#">PARTNER WITH US</a><hr>
+                </h6>
+             </div>
+
+             <div class="follow_us"> 
+                <h4>Follow Us</h4>
+                  <p><h6>Lets us be Social</h6></p>
+                  <div class="social-menu">
+            <link rel="stylesheet" href="https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              
+            <a style="color: white;text-decoration: none; " href="#" class="fa fa-facebook"></a>
+            <a style="color: white;text-decoration: none; padding-left: 20px;" href="#" class="fa fa-twitter"></a>
+            <a style="color: white;text-decoration: none;padding-left: 20px;" href="#" class="fa fa-instagram"></a>
+            <a style="color: white;text-decoration: none;padding-left: 20px;" href="#" class="fa fa-youtube"></a>
+                </div>
+
+      </div>
+
+=≠
+        </div>
+    </footer>
+
+
+      </div>
+
+      </div>
+
+    </div>
+
+    <script>
+      /* Loop through all dropdownssss buttons to toggle between hiding and showing its dropdownssss content - This allows the user to have multiple dropdownsssss without any conflict */
+      var dropdownssss = document.getElementsByClassName("dropdownssss-btnss");
+      var i;
+
+      for (i = 0; i < dropdownssss.length; i++) {
+        dropdownssss[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownssssContent = this.nextElementSibling;
+        if (dropdownssssContent.style.display === "block") {
+        dropdownssssContent.style.display = "none";
+        } else {
+        dropdownssssContent.style.display = "block";
+        }
+        });
+      }
+      </script>
+  </body>
+</html>
